@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6102461396:AAGHoK6PqckKPJ-M-oyU201sV5ZN-5Fjnhc")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6090601209:AAFk09eAVhIDNWhuQAchYK0s_JSXUtQeFqE")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "26461352"))
@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "26461352"))
 API_HASH = os.environ.get("API_HASH", "ab9cc32776ada8335852b50cd96bb8c6")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001637710147"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001867538832"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5069888600"))
@@ -28,7 +28,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5069888600"))
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://AiTool:AiTool@cluster0.pxliet0.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://jj:jj@cluster0.yzt4l0u.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 #force sub channel id, if you want enable force sub
@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
+START_MSG = os.environ.get("START_MESSAGE", "I'm Alive")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "5069888600 5554564210 6053692745 1991522624").split()):
